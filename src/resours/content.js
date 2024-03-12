@@ -36,7 +36,7 @@ const projectlist = [
     },
     {
     image : photo3,
-    title : "Hostel Management System",
+    title : "Bus Tracking System",
     content :"The bus tracking system monitors the real-time location of buses, providing passengers with accurate arrival times and optimizing routes for efficient transportation management. It enhances passenger experience, reduces wait times, and improves overall transportation efficiency.",
     },
 ]
