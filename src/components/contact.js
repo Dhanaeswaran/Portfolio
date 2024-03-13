@@ -15,7 +15,7 @@ const Contact = () => {
     e.preventDefault();
     toast.promise(new Promise((resolve, reject) => {
       emailjs
-        .sendForm('service_b0v6yn', 'template_f5siyll', form.current, {
+        .sendForm('service_b0fv6yn', 'template_f5siyll', form.current, {
           publicKey: 'h8Kh0efsU_ENOEwCp',
         })
         .then(
