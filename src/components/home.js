@@ -1,5 +1,6 @@
 import '../cssfile/home.css';
 import { socialicon , homecon} from '../resours/content';
+import resume from '../resours/resume.pdf';
 const Home = () => {
     return ( 
         <section className="Home">
@@ -24,7 +25,7 @@ const Home = () => {
                             <button className='secoundarybackground homebtnbn'>HIRE ME</button>
                         </div>
                         <div className="homenamebtn">
-                            <button className='secoundarybackground homebtnbn'>GET RESUME</button>
+                            <a href={resume} download={"Dhanaeswaran R"}><button className='secoundarybackground homebtnbn' >GET RESUME</button></a>
                         </div>
                     </div>
                 </div>
